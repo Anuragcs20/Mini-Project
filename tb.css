@@ -1,0 +1,80 @@
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border:solid black;
+    padding: 34px;
+    text-align: center;
+}
+th {
+    background-color:#c3e2eb;
+    color:rgb(43 43 152)
+
+}
+.symbol {
+    font-weight: bold;
+    font-size: 20px;
+
+    
+}
+th:hover{
+    background-image: url("https://media.tenor.com/ZAw_hz_GBBsAAAAd/rain.gif");
+    color:black
+}
+body{
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-position: auto;
+    margin:3px;
+    margin-top:1px;
+}
+pe{
+    color: rgb(0,0,0);
+}
+p1{
+    margin-left:610px;
+}
+
+.button {
+    background-color: #1b454a; /* Green */
+    border: none;
+    color: white;
+    padding: 18px 48px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .content{
+    font-family: 'Times New Roman';
+    font-size: 17px;
+    padding-left: 143px;
+    margin-top: 2%;
+    letter-spacing: 10px;
+    }
+    .content span{
+      color: #2998ff;
+      font-size: 65px
+    }
+    .box {
+        width: 150px;
+        height: 49px;
+        background:#1b454a;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        -webkit-transition: background-color 1s ease-out;
+        -moz-transition: background-color 1s ease-out;
+        -o-transition: background-color 1s ease-out;
+        transition: background-color 1s ease-out;
+      }
+      
+      .box:hover {
+        background-color: green;
+        cursor: pointer;
+      }
